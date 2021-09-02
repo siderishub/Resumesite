@@ -1,0 +1,49 @@
+body{
+    font-family: 'Roboto Slab', serif;
+}
+#sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+
+#left{
+    background-color: #012A4A;
+}
+
+#right{
+    background-color: #A9D6E5;
+}
+/*#middle{
+    background-color: #89C2D9;
+}*/
+
+img {
+    border-radius: 50%;
+  }
+
+  #img-div {
+    max-width: 100%;
+  }
+  
+  #img-div > img {
+    width: 100%;
+  }
+  #img-div img {
+    max-width: 350px
+  }
+
+  .spacer{
+    aspect-ratio: 960/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .layer1 {
+    background-image: url('./layer1.svg')
+  }
+  .layer2 {
+    background-image: url('./layer2.png')
+  }
